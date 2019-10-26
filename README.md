@@ -3,12 +3,13 @@
 Here is my personal Color Scheme for Sublime Text 3. Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
 
 ![Hivacruz with Material Theme](./screenshots/material.png)
-<center>_Hivacruz Color Scheme with the Material Palenight Theme_</center>
+
+## How to use it?
 
 There are two ways of using it:
 
 * Use it with your own theme or the built-in themes of Sublime Text ;
-* Use it with the [Material Theme](https://github.com/equinusocio/material-theme) and the "Palenight" sub-theme (recommended).
+* Use it with the [Material Theme](https://github.com/equinusocio/material-theme) and the "Palenight" sub-theme (see above, recommended).
 
 I'm using the **Roboto Mono Medium** font in my screenshots. On macOS, you can install it with Homebrew like this:
 
@@ -122,4 +123,9 @@ Here are some examples of how the color scheme treats popular languages.
 
 ![](./screenshots/markdown.png)
 
+## Pull Requests
 
+Feel free to submit changes to the color scheme. It's a work in progress and it lacks some features. Some are:
+
+* Better colors for incremental diff (at the moment I disabled it with `"mini_diff": false`)
+* Better colors for Markdown (through Markdown Editing package or by itself?)
