@@ -1,6 +1,6 @@
 # Hivacruz Color Scheme for Sublime Text
 
-Here is my Color Scheme for Sublime Text 3. Works best with The Material Theme (see below).
+Here is my Color Scheme for Sublime Text 3. Works best with The [Material Theme](https://github.com/equinusocio/material-theme) (see below).
 
 ![Hivacruz with Material Theme](./screenshots/material.png)
 
@@ -11,15 +11,14 @@ There are two ways of using it:
 * Use it with your own theme or the built-in themes of Sublime Text ;
 * Use it with the [Material Theme](https://github.com/equinusocio/material-theme) and the "Palenight" sub-theme (recommended).
 
+## Installation
+
 I'm using the **Roboto Mono Medium** font in my screenshots. On macOS, you can install it with Homebrew like this:
 
 ```sh
 brew tap homebrew/cask-fonts
 brew cask install font-roboto-mono
 ```
-
-## Installation
-
 
 ### Via Package Control
 
