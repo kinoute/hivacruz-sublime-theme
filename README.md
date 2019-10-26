@@ -1,6 +1,6 @@
 # Hivacruz Color Scheme for Sublime Text
 
-Here is my personal Color Scheme for Sublime Text 3. Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
+Here is my Color Scheme for Sublime Text 3. Works best with The Material Theme (see below).
 
 ![Hivacruz with Material Theme](./screenshots/material.png)
 
@@ -9,7 +9,7 @@ Here is my personal Color Scheme for Sublime Text 3. Heavily inspired by [Coda 2
 There are two ways of using it:
 
 * Use it with your own theme or the built-in themes of Sublime Text ;
-* Use it with the [Material Theme](https://github.com/equinusocio/material-theme) and the "Palenight" sub-theme (see above, recommended).
+* Use it with the [Material Theme](https://github.com/equinusocio/material-theme) and the "Palenight" sub-theme (recommended).
 
 I'm using the **Roboto Mono Medium** font in my screenshots. On macOS, you can install it with Homebrew like this:
 
@@ -28,7 +28,7 @@ brew cask install font-roboto-mono
 
 ### Manual Installation
 
-1. Download `Hivacruz.tmTheme` files from this repo.
+1. Download the `Hivacruz.tmTheme` file from this repo.
 2. Select `Preferences → Browse packages` from the main menu.
 3. Copy `Hivacruz.tmTheme` files to `Packages/User/`.
 4. Select `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
@@ -129,3 +129,7 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
 
 * Better colors for incremental diff (at the moment I disabled it with `"mini_diff": false`)
 * Better colors for Markdown (through Markdown Editing package or by itself?)
+
+## Credits
+
+Created by Yann Defretin. Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
