@@ -3,7 +3,7 @@
 Here is my personal Color Scheme for Sublime Text 3. Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
 
 ![Hivacruz with Material Theme](./screenshots/material.png)
-_Hivacruz Color Scheme with the Material Palenight Theme_
+<center>_Hivacruz Color Scheme with the Material Palenight Theme_</center>
 
 There are two ways of using it:
 
@@ -37,7 +37,7 @@ brew cask install font-roboto-mono
 
 ### Material Theme
 
-Despite being not under active development, the [Material Theme](https://github.com/equinusocio/material-theme) remains of the one best Sublime Text Theme. I strongly recommend it to fit with this color theme.
+Despite being not under active development, the [Material Theme](https://github.com/equinusocio/material-theme) remains of one the best Sublime Text Themes. I strongly recommend it to fit with this color theme.
 
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
