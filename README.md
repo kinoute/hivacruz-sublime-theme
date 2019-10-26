@@ -130,6 +130,10 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
 * Better colors for incremental diff (at the moment I disabled it with `"mini_diff": false`)
 * Better colors for Markdown (through Markdown Editing package or by itself?)
 
+## iTerm2
+
+For those using iTerm2 on macOS, a similar [color scheme](https://github.com/kinoute/hivacruz-itermcolors) is available.
+
 ## Credits
 
 Created by Yann Defretin. Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
