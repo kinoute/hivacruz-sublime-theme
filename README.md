@@ -38,7 +38,7 @@ brew cask install font-roboto-mono
 
 ### Material Theme
 
-Despite being not under active development, the [Material Theme](https://github.com/equinusocio/material-theme) remains of one the best Sublime Text Themes. I strongly recommend it to fit with this color theme.
+Despite not being under active development anymore, the [Material Theme](https://github.com/equinusocio/material-theme) remains one of the best Sublime Text Themes. I strongly recommend it to fit with this color scheme.
 
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
