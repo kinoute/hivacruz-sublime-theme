@@ -13,11 +13,11 @@ There are two ways of using it:
 
 ## Installation
 
-I'm using the **Roboto Mono Medium** font in my screenshots. On macOS, you can install it with Homebrew like this:
+I'm using the **Roboto Mono Medium Nerd Font Complete** font in my screenshots. On macOS, you can install it with Homebrew like this:
 
 ```sh
 brew tap homebrew/cask-fonts
-brew cask install font-roboto-mono
+brew cask install font-robotomono-nerd-font
 ```
 
 ### Via Package Control
@@ -57,7 +57,7 @@ Here is the my recommended settings for this theme. To add them, go to `Preferen
 
 ```json
 	"color_scheme": "Packages/User/Hivacruz.tmTheme",
-	"font_face": "Roboto Mono Medium",
+	"font_face": "Roboto Mono Medium Nerd Font Complete",
 	"font_size": 12,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -135,6 +135,10 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
 ## iTerm2
 
 For those using iTerm2 on macOS, a similar [color scheme](https://github.com/kinoute/hivacruz-itermcolors) is available.
+
+## Typora
+
+I created as well a [Typora theme](https://github.com/kinoute/typora-hivacruz-theme), the famous Markdown editor, with similar colors.
 
 ## Credits
 
