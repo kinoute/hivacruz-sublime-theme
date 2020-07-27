@@ -132,9 +132,13 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
 * Better colors for incremental diff (at the moment I disabled it with `"mini_diff": false`)
 * Better colors for Markdown (through Markdown Editing package or by itself?)
 
-## iTerm2
+ ## Same theme in other apps
 
-For those using iTerm2 on macOS, a similar [color scheme](https://github.com/kinoute/hivacruz-itermcolors) is available.
+ I made similar themes with the same colours for different applications. Here there are:
+
+ - Typora Theme : https://github.com/kinoute/typora-hivacruz-theme
+ - VSCode Theme : https://github.com/kinoute/vscode-hivacruz-theme
+ - iTerm2 : https://github.com/kinoute/hivacruz-itermcolors
 
 ## Credits
 
