@@ -140,8 +140,10 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
  - Vim Theme: https://github.com/kinoute/vim-hivacruz-theme
  - VSCode Theme: https://github.com/kinoute/vscode-hivacruz-theme
  - iTerm2: https://github.com/kinoute/hivacruz-itermcolors
- - Nova: https://github.com/kinoute/hivacruz-nova-theme
+- Nova: https://github.com/kinoute/hivacruz-nova-theme
 
 ## Credits
 
-Created by Yann Defretin. Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
+- Created by Yann Defretin. 
+- Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
+
