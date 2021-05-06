@@ -136,13 +136,11 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
 
  I made similar themes with the same colours for different applications. Here there are:
 
- - Typora Theme : https://github.com/kinoute/typora-hivacruz-theme
- - VSCode Theme : https://github.com/kinoute/vscode-hivacruz-theme
- - iTerm2 : https://github.com/kinoute/hivacruz-itermcolors
-
-## Typora
-
-I created as well a [Typora theme](https://github.com/kinoute/typora-hivacruz-theme), the famous Markdown editor, with similar colors.
+ - Typora Theme: https://github.com/kinoute/typora-hivacruz-theme
+ - Vim Theme: https://github.com/kinoute/vim-hivacruz-theme
+ - VSCode Theme: https://github.com/kinoute/vscode-hivacruz-theme
+ - iTerm2: https://github.com/kinoute/hivacruz-itermcolors
+ - Nova: https://github.com/kinoute/hivacruz-nova-theme
 
 ## Credits
 
