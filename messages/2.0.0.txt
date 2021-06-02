@@ -1,0 +1,11 @@
+Hivacruz Theme and Color Scheme for Sublime Text 3 and 4
+https://github.com/kinoute/hivacruz-sublime-theme
+Version 2.0.0
+********************************************************************************
+
+Second version of the Hivacruz Theme & Color Scheme.
+
+* Compatible with ST3 and ST4
+* Includes a Theme
+* Includes a Color Scheme
+* Includes File Icons

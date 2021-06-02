@@ -1,92 +1,140 @@
-# Hivacruz Color Scheme for Sublime Text
+# Hivacruz Theme for Sublime Text
 
-Here is my Color Scheme for Sublime Text 3. Works best with The [Material Theme](https://github.com/equinusocio/material-theme) (see below).
+A dark blue Theme and Color Scheme for Sublime Text 3 and 4 (build 3211 and newer).
 
 ![Hivacruz with Material Theme](./screenshots/material.png)
 
-## How to use it?
-
-There are two ways of using it:
-
-* Use it with your own theme or the built-in themes of Sublime Text ;
-* Use it with the [Material Theme](https://github.com/equinusocio/material-theme) and the "Palenight" sub-theme (recommended).
+> The font used in the screenshot is [Roboto Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete.ttf), Medium, 12px.
 
 ## Installation
 
-I'm using the **Roboto Mono Medium Nerd Font Complete** font in my screenshots. On macOS, you can install it with Homebrew like this:
+### Via Package Control
 
-```sh
+1. `Tools` → `Command Palette...` → `Package Control: Install Package` → `Hivacruz Theme`.
+2. Go to `Preferences → Theme ...` and pick `Hivacruz` from the menu.
+3. Go to `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
+
+### Manual Installation
+
+1. Download the repository to your computer and rename the folder to "Hivacruz Theme".
+2. Go to `Preferences → Browse packages` from the main menu.
+3. Copy the folder `Hivacruz Theme` files to `Packages` (not inside the `User` folder).
+4. Go to `Preferences → Theme ...` and pick `Hivacruz` from the menu.
+5. Go to `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
+
+### File Icons
+
+`Hivacruz` supports customization via [A File Icon](https://github.com/ihodev/a-file-icon) package. Please install it and restart Sublime for a better experience.
+
+
+## Recommended settings
+
+### Font
+
+I'm using the **Roboto Mono Medium Nerd Font Complete** font in my screenshots. On macOS, you can install it with Homebrew, like this:
+
+```
 brew tap homebrew/cask-fonts
 brew cask install font-robotomono-nerd-font
 ```
 
-### Via Package Control
+For other OSes, you can also find the font file  [here](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete.ttf).
 
-1. `Tools` → `Command Palette...` → `Package Control: Install Package` → `Hivacruz Color Scheme`.
-2. Select `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
+### Settings
 
-### Manual Installation
-
-1. Download the `Hivacruz.tmTheme` file from this repo.
-2. Select `Preferences → Browse packages` from the main menu.
-3. Copy `Hivacruz.tmTheme` files to `Packages/User/`.
-4. Select `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
-
-
-## What theme is best for this color scheme?
-
-### Material Theme
-
-Despite not being under active development anymore, the [Material Theme](https://github.com/equinusocio/material-theme) remains one of the best Sublime Text Themes. I strongly recommend it to fit with this color scheme.
-
-You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
-
-1. Press ⌘/Ctrl + ⇧ + P to open the command palette.
-2. Type `Package Control: Install Package` and press enter. Then search for `Material Theme`.
-
-#### Activate the theme
-
-Then you can active the theme from `Preferences > Packages Settings` and choose `Material Theme > Activate`.
-
-Now go again to `Preferences > Packages Settings` and choose `Material Theme > Configuration` this time. Click on `Theme` and pick `Material-Theme-Palenight.sublime-theme`.
-
-
-#### Theme settings
-
-Here is the my recommended settings for this theme. To add them, go to `Preferences > Settings`. Add/replace the following lines:
+Here is the my recommended settings for this theme – the ones used in the screenshots. To add them, go to `Preferences → Settings`. Add/replace the following lines:
 
 ```json
-	"color_scheme": "Packages/User/Hivacruz.tmTheme",
 	"font_face": "Roboto Mono Medium Nerd Font Complete",
 	"font_size": 12,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"bold_folder_labels": true,
-	"material_theme_accent_cyan": true,
-	"material_theme_accent_scrollbars": true,
-	"material_theme_bright_scrollbars": true,
-	"material_theme_compact_sidebar": true,
-	"material_theme_contrast_mode": true,
-	"material_theme_small_statusbar": true,
-	"material_theme_small_tab": true,
-	"material_theme_tabs_separator": true,
-	"material_theme_titlebar": true,
-	"material_theme_tree_headings": true,
-	"theme": "Material-Theme-Palenight.sublime-theme",
-	"mini_diff": false
+	"ensure_newline_at_eof_on_save": true,
+	"index_files": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"ensure_newline_at_eof_on_save": true,
+	"caret_style": "blink",
+	"draw_shadows": false
 ```
 
-### Built-in themes or others
+## Custom settings
 
-If you don't have any theme installed already and you don't want to install any, I suggest you to use the "Adaptive" built-in theme of Sublime text to fit with this color scheme.
+If you would like to change a few things to make your experience better, you can easily customize the theme and the color scheme on ST4:
 
-To do that, just go to `Preferences` → `Theme` and pick `Adaptive`.
+### Customize the Theme
 
-The Color scheme with this theme will look like this:
+To change something related to the theme (sidebar, title bar etc):
 
-![](./screenshots/adaptive.png)
+1. Pull up the command palette with <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
+2. Type in `Customize Theme` and press <kbd>Enter</kbd>. It will open a new window with two tabs opened: on the left, the default theme values ; on the right, your own customised values.
 
-## Examples
+For example, if you want to change the sidebar font size (which is quite small by default), you can do that:
+
+```json
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+    },
+    "rules":
+    [
+      {
+         "class": "sidebar_label",
+         "font.size": 13, // increase font size for sidebar folder/files
+         "font.face": "Fira Code" // changing the font face as well
+      },
+    ]
+}
+
+```
+
+More infos about Sublime Text theming rules can be found here: https://www.sublimetext.com/docs/themes.html.
+
+### Customize the color scheme
+
+To change something related to the color scheme (syntax highlighting of your code):
+
+1. Pull up the command palette with <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
+2. Type in `Customize Color scheme` and press <kbd>Enter</kbd>. It will open a new window with two tabs opened: on the left, the default color scheme values ; on the right, your own customised values.
+
+For example, if you want to change the Markdown headings color from orange to yellow, you can do:
+
+```json
+{
+    "variables":
+    {
+    },
+    "globals":
+    {
+    },
+    "rules":
+    [
+    {
+        "name": "Markup: Heading Symbols",
+        "scope": "markup.heading",
+        "foreground": "#afe61d",
+        "font_style": "bold"
+    },
+    {
+        "name": "Markdown headings Section",
+        "scope": "entity.name.section.markdown",
+        "foreground": "#afe61d"
+    },
+    ]
+}
+```
+
+More informations about color schemes rules can be found here: https://www.sublimetext.com/docs/color_schemes.html.
+
+## Contribution
+
+Feel free to submit changes to the  theme and color scheme. It's a work in progress and it might lack some features!
+
+## Screenshots
 
 Here are some examples of how the color scheme treats popular languages.
 
@@ -125,13 +173,6 @@ Here are some examples of how the color scheme treats popular languages.
 
 ![](./screenshots/markdown.png)
 
-## Pull Requests
-
-Feel free to submit changes to the color scheme. It's a work in progress and it lacks some features. Some are:
-
-* Better colors for incremental diff (at the moment I disabled it with `"mini_diff": false`)
-* Better colors for Markdown (through Markdown Editing package or by itself?)
-
  ## Same theme in other apps
 
  I made similar themes with the same colours for different applications. Here there are:
@@ -145,5 +186,6 @@ Feel free to submit changes to the color scheme. It's a work in progress and it 
 ## Credits
 
 - Created by Yann Defretin. 
-- Heavily inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
+- Inspired by [Coda 2.5](https://panic.com/coda)'s Panic Palette written by Cabel Sasser.
+- The File Icons come from the [Mooon Light Theme](https://github.com/developedby-sam/mooon-light) by Samir Ansari.
 
