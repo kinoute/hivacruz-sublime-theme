@@ -11,16 +11,16 @@ A dark blue Theme and Color Scheme for Sublime Text 3 and 4 (build 3211 and newe
 ### Via Package Control
 
 1. `Tools` → `Command Palette...` → `Package Control: Install Package` → `Hivacruz Theme`.
-2. Go to `Preferences → Theme ...` and pick `Hivacruz` from the menu.
-3. Go to `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
+2. Go to `Preferences → Theme ...` and pick `Hivacruz Theme` from the menu.
+3. Go to `Preferences → Color Scheme ...` and pick `Hivacruz Theme` from the menu.
 
 ### Manual Installation
 
 1. Download the repository to your computer and rename the folder to "Hivacruz Theme".
 2. Go to `Preferences → Browse packages` from the main menu.
-3. Copy the folder `Hivacruz Theme` files to `Packages` (not inside the `User` folder).
-4. Go to `Preferences → Theme ...` and pick `Hivacruz` from the menu.
-5. Go to `Preferences → Color Scheme ...` and pick `Hivacruz` from the menu.
+3. Copy the folder `Hivacruz Theme` to `Packages` (not inside the `User` folder).
+4. Go to `Preferences → Theme ...` and pick `Hivacruz Theme` from the menu.
+5. Go to `Preferences → Color Scheme ...` and pick `Hivacruz Theme` from the menu.
 
 ### File Icons
 
