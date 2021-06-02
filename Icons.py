@@ -8,9 +8,7 @@ import sublime
 ICONS_PACKAGE = "A File Icon"
 PKGCTRL_SETTINGS = "Package Control.sublime-settings"
 
-THEME_NAME = os.path.splitext(
-    os.path.basename(os.path.dirname(__file__))
-)[0]
+THEME_NAME = os.path.splitext(os.path.basename(os.path.dirname(__file__)))[0]
 
 MSG = """\
 <div id="afi-installer">
@@ -35,7 +33,9 @@ MSG = """\
   <br><br>Would you like to install it?<br>
   <br><a href="install">Install</a> <a href="cancel">Cancel</a>
 </div>
-""".format(THEME_NAME)
+""".format(
+    THEME_NAME
+)
 
 
 def is_installed():
@@ -76,5 +76,5 @@ def plugin_loaded():
             location=view.text_point(row, 5),
             max_width=800,
             max_height=800,
-            on_navigate=on_navigate
+            on_navigate=on_navigate,
         )
