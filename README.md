@@ -180,8 +180,8 @@ Here are some examples of how the color scheme treats popular languages.
  - Typora Theme: https://github.com/kinoute/typora-hivacruz-theme
  - Vim Theme: https://github.com/kinoute/vim-hivacruz-theme
  - VSCode Theme: https://github.com/kinoute/vscode-hivacruz-theme
- - iTerm2: https://github.com/kinoute/hivacruz-itermcolors
-- Nova: https://github.com/kinoute/hivacruz-nova-theme
+ - iTerm2: https://github.com/kinoute/hivacruz-itermcolor
+ - Nova: https://github.com/kinoute/hivacruz-nova-theme
 
 ## Credits
 
