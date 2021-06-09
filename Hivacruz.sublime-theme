@@ -1590,7 +1590,7 @@
 					"attributes": ["ignored"]
 				}
 			],
-			"fg": "#3D4251"
+			"fg": "#80a4c255"
 		},
 		{
 			"class": "sidebar_heading",
@@ -1809,11 +1809,18 @@
 			"attributes": ["selected", "hover"],
 			"layer3.opacity": 0.5
 		},
+    {
+      "class": "tab_control",
+      "attributes": ["selected"],
+      "layer3.opacity": 1
+    },
 		{
 			"class": "tab_label",
-			"fg": "#4d5566",
+      "fg": "#e5e5e5",
+      "bg": "color(var(lightest-color))",
 			"font.italic": false,
-			"font.bold": false
+			"font.bold": false,
+      "layer1.opacity": 1,
 		},
 		{
 			"class": "tab_label",
