@@ -2540,5 +2540,11 @@
         "scope": "text.html.markdown markup.bold.markdown",
         "foreground": "#e5e5e5",
         "font_style": "bold"
-    }]
+    },
+    {
+        "name": "Yaml keys",
+        "scope": "source.yaml meta.mapping.key.yaml meta.string.yaml string.unquoted.plain.out.yaml",
+        "foreground": "#00acf6"
+    }
+    ]
 }
