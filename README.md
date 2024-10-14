@@ -182,6 +182,7 @@ Here are some examples of how the color scheme treats popular languages.
  - VSCode Theme: https://github.com/kinoute/vscode-hivacruz-theme
  - iTerm2: https://github.com/kinoute/hivacruz-itermcolor
  - Nova: https://github.com/kinoute/hivacruz-nova-theme
+ - Zed: https://github.com/kinoute/zed-hivacruz-theme
 
 ## Credits
 
